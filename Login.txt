@@ -1,0 +1,11 @@
+ private void label4_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "admin" || textBox2.Text == "admin")
+            {
+               
+
+                MenuPrincipal mp = new MenuPrincipal();
+                mp.Show();
+                
+                    }
+               }
